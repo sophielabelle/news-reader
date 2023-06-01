@@ -15,19 +15,6 @@ export const testData = [
   {
     "source": {
       "id": null,
-    "name": "Biztoc.com"
-    },
-    "author": "vanityfair.com",
-    "title": "The Numbers Are In: Elon Musk Has Been a Disaster for Twitter",
-    "description": "When Tesla chief executive Elon Musk bought Twitter for $44 billion back in October, the deal was thought to be a massive overpay, and Musk himsel  f admitted as much at the time. But since then, the billionaire’s financial position on the company has only grow…  ",
-  "url": "https://biztoc.com/x/896504c6940ce665",
-  "urlToI mage": "https://c.biztoc.com/p/896504c6940ce665/og.webp ",
-  "publishedAt": "2023-05-31T21:00:13Z",
-  "content": "When Tesla chief executive Elon Musk bought Twitter for $44 billion back in October, the deal was thought to be a massive overpay, and Musk himself admitted as much at the time. But since then, the b… [+285 chars]"
-  },
-  {
-    "source": {
-      "id": null,
     "name": "Vanity Fair"
     },
     "author": "Caleb Ecarma",
@@ -60,8 +47,8 @@ export const testData = [
       "title": "Automatic emergency braking should become mandatory, feds say",
       "description": "The rule would save 360 lives and prevent 24,000 crashes a year, NHTSA says.",
     "url": "https://arstechnica.com/cars/2023/05/ automatic-emergency-braking-should-become-mandatory-feds-say/",
-    "urlToImage": "https://cdn.arstechnica.net/wp-conten  t/uploads/2023/05/31680_Volvo_S60_V60-760x380.jpg",
-    "publishedAt": "2023-05-31T20:46:04Z  ",
+    "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2023/05/31680_Volvo_S60_V60-760x380.jpg",
+    "publishedAt": "2023-05-31T20:46:04Z",
     "content": "Enlarge/ Emergency braki  ng systems have been on the road for some years, but now the federal government wants them to be mandatory equipment on all new light trucks and passenger cars.\r\n23 with \r\nOn … [+2200 chars]"
   }
 ]
