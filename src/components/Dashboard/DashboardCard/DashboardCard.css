@@ -1,0 +1,21 @@
+.dashboard-card {
+  background-color: var(--color-2);
+  border: var(--border);
+  width: 100%;
+  margin: 4px;
+  padding: 8px;
+}
+
+.card-contents {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-contents  > img {
+  width: 45vw;
+}
+
+.card-description {
+  display: flex;
+  flex-direction: column;
+}
