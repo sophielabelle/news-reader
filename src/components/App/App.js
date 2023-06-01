@@ -1,25 +1,15 @@
-import logo from './logo.svg';
+import { Dashboard } from '../Dashboard/Dashboard';
+import { NavBar } from '../NavBar/NavBar';
+import { testData } from '../../dev-data';
+import { Redirect, Route, Switch } from 'react-router-dom';
 import './App.css';
 
-function App() {
+export const App = () =>  {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>HIIII</h1>
+      <NavBar />
+      <ˆ />
     </div>
   );
 }
-
-export default App;
