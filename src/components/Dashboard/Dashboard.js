@@ -11,6 +11,7 @@ export const Dashboard = () =>  {
 
   return (
     <div className="dashboard">
+      <h2>Recent Articles</h2>
       {articleDisplay}
     </div>
   );
