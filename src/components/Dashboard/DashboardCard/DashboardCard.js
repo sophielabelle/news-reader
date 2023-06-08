@@ -5,9 +5,9 @@ import './DashboardCard.css';
 export const DashboardCard = ({article}) =>  {
   const cleanName = article.source.name ? <p>Source: {article.source.name}</p> : null;
   const cleanDate = DateTime.fromISO(article.publishedAt).toLocaleString(DateTime.DATE_MED);
-  
+
   return (
-    // <Link to={`/article/${article.title}`}>
+    <Link to={`/article/${article.title}`}>
       <div className="dashboard-card">
         <h2>{article.title}</h2>
         <section className='card-contents'>
@@ -19,7 +19,7 @@ export const DashboardCard = ({article}) =>  {
           </div>
         </section>
       </div>
-    // </Link>
+    </Link>
   );
 }
 
