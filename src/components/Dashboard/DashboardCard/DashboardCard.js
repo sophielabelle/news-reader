@@ -7,7 +7,7 @@ export const DashboardCard = ({article}) =>  {
   const cleanDate = DateTime.fromISO(article.publishedAt).toLocaleString(DateTime.DATE_MED);
 
   return (
-    <Link to={`/article/${article.title}`}>
+    <Link to={`/article/${article.source.id}`}>
       <div className="dashboard-card">
         <h2>{article.title}</h2>
         <section className='card-contents'>

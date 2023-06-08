@@ -17,3 +17,7 @@
   width: 95vw;
   padding: 8px;
 }
+
+.single-content > img {
+  height: 40%;
+}
