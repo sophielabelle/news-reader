@@ -22,13 +22,11 @@ export const App = () =>  {
           render={({match}) => {
             const article = articles.find(a => {
               if(a.title === match.params.title){
-                console.log(a.title)
-                return a
+                return a;
               }
-            }) 
+            }); 
             return <SingleArticle article={article}/>
-          }
-        }
+          }}
         />
         <Route 
           exact path='/' 
