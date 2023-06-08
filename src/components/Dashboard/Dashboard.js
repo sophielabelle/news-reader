@@ -1,9 +1,8 @@
-import { testData } from '../../dev-data';
 import './Dashboard.css';
 import { DashboardCard } from './DashboardCard/DashboardCard';
 
-export const Dashboard = () =>  {
-  const articleDisplay = testData.map(article => {
+export const Dashboard = ({ articles }) =>  {
+  const articleDisplay = articles.map((article, i) => {
     return (
       <DashboardCard key={article.title} article={article}/>
     )
