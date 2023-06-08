@@ -9,7 +9,7 @@ export const Dashboard = ({ articles }) =>  {
   })
 
   return (
-    <div className="dashboard">
+    <div className="dashboard nav-spacing">
       <h2>Recent Articles</h2>
       {articleDisplay}
     </div>
