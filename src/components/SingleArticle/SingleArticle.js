@@ -6,9 +6,11 @@ export const SingleArticle = ({ article }) =>  {
 
   return (
     <div className="single-article nav-spacing">
-      <h2>{article.title}</h2>
-      <h3>{article.author} Published {cleanDate}</h3>
-      <p>{article.content}</p>
+      <div className="single-content">
+        <h2>{article.title}</h2>
+        <h3>{article.author} Published {cleanDate}</h3>
+        <p>{article.content}</p>
+      </div>
     </div>
   );
 }
