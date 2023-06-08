@@ -12,7 +12,7 @@ News Reader is an app that allows users to see the top news headlines in the US 
 ## Contributors:
 - [Sophie LaBelle](https://github.com/sophielabelle)
 
-### To set up the News Reader application, follow these steps:
+## Set Up:
 
 Clone the repository from here.
 Install the required dependencies using npm i.
